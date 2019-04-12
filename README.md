@@ -17,7 +17,7 @@ from [slim](https://github.com/tensorflow/models/tree/master/research/slim)
 specifying the location with `--pre_trained_model`.
 
 ## dataset
-we use our anthrax spore dataset() to train deeplab v3+ model using constrained focal loss.
+we use our anthrax spore dataset(https://drive.google.com/open?id=1-Cjy4tkhgBxTip2B_3esqw8xWkzofcZX) to train deeplab v3+ model using constrained focal loss.
 in anthrax spore dataset:
     -training set:  400 images
     -testing set:  200 images
@@ -61,9 +61,7 @@ To apply semantic segmentation to your images, one can use the following command
 ```bash
 python inference.py --data_dir DATA_DIR --infer_data_list INFER_DATA_LIST --model_dir MODEL_DIR 
 ```
-The trained model is available [here](https://www.dropbox.com/s/gzwb0d6ydpfoxoa/deeplabv3_ver1.tar.gz?dl=0).
-One can find the detailed explanation of mask such as meaning of color in 
-[DrSleep's repo](https://github.com/DrSleep/tensorflow-deeplab-resnet).
+
 
 ## TODO:
 Pull requests are welcome.
