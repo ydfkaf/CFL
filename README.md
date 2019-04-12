@@ -24,7 +24,7 @@ in anthrax spore dataset:
 There are two classes in each image——background and anthrax spore.
 
 ## loss
-We implement the proposed constrained focal loss in constrained_focal_loss.py.
+We implement the proposed constrained focal loss in constrained_focal_loss_impl.py.
 
 ## Training
 For training model, you first need to convert original data to
