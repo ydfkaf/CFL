@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CFL
 Constrained focal loss for the segmentation of anthrax spore
 =======
@@ -17,14 +16,14 @@ Please install latest version of TensorFlow and use Python 3.
 from [slim](https://github.com/tensorflow/models/tree/master/research/slim)
 specifying the location with `--pre_trained_model`.
 
-##dataset
+## dataset
 we use our anthrax spore dataset() to train deeplab v3+ model using constrained focal loss.
 in anthrax spore dataset:
     -training set:  400 images
     -testing set:  200 images
 There are two classes in each image——background and anthrax spore.
 
-##losses
+## loss
 We implement the proposed constrained focal loss in constrained_focal_loss.py.
 
 ## Training
